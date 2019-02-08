@@ -1,16 +1,37 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Browserify Boilerplate</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
+
 <body>
     <article class="output">
 
     </article>
+    <form>
+        <fieldset>
+            <label for="customerName">Customer Name</label>
+            <input type="text" name="customerName" id="customerName">
+        </fieldset>
+        <fieldset>
+            <label for="customerPhoneNumber">Customer Phone Number</label>
+            <input type="text" name="customerPhoneNumber" id="customerPhoneNumber">
+        </fieldset>
+        <fieldset>
+            <label for="customerAddress">Customer Adress</label>
+            <input type="text" name="customerAddress" id="customerAddress">
+        </fieldset>
+
+        <button id="createCustomerObject" class="btn btn-info people">
+    </form>
+    Add Customer
+    </button>
 
     <script src="bundle.js"></script>
 </body>
+
 </html>
